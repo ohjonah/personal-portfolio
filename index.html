@@ -9,34 +9,46 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/layout.css">
     <link rel="stylesheet" href="./styles/modules.css">
+
+    <script id="project-template" type="text/x-handlebars-template">
+        <div class="project-container">
+            <h2>{{ projectName }}</h2>
+        </div>
+      </article>
+    </script>
   </head>
+
   <body>
     <header>
       <nav>
         <ul>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>View Projects</li>
+          <li>Contact Me</li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="hero-banner">
-
+        <h1>Jonah Oh</h1>
+        <p>Developer</p>
       </section>
 
-      <section id="projects">
+      <section id="projects"></section>
 
-      </section>
-
-      </section class="contact">
-
+      <section class="about-me">
+        <h2><h2>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>&copy; 2017 by <span>Jonah Oh</span></p>
+      <a href="https://www.linkedin.com/in/ohjonah"<span class="icon-linkedin2"></span></a>
+      <a href="https://github.com/ohjonah"><span class="icon-github"></span></a>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
     <script src="./scripts/app.js"></script>
   </body>
 </html>
