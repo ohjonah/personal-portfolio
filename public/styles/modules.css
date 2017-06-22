@@ -1,0 +1,56 @@
+/*******************
+        NAV
+********************/
+
+nav {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  max-width: 100%;
+  margin: 2% 0.5%;
+  padding: 1.75% 3.5%;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 100;
+}
+
+nav li:hover {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .85);
+  color: #000;
+  font-weight: 400;
+  border: 1px dotted #000;
+}
+
+/*******************
+      HERO-IMG
+********************/
+
+.hero-banner {
+  position: relative;
+  text-align: center;
+}
+
+.hero-banner img {
+  width: 100%;
+}
+
+.hero-banner h1 {
+  font-weight: 500;
+  font-size: 9vw;
+}
+
+.hero-banner p {
+  font-weight: 100;
+  font-size: 3vw;
+}
