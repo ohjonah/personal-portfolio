@@ -33,7 +33,7 @@ nav li:hover {
 }
 
 /*******************
-      HERO-IMG
+      HERO
 ********************/
 
 .hero-banner {
@@ -41,16 +41,38 @@ nav li:hover {
   text-align: center;
 }
 
-.hero-banner img {
+img {
   width: 100%;
+  display: block;
 }
 
 .hero-banner h1 {
   font-weight: 500;
-  font-size: 9vw;
+  font-size: 13vw;
 }
 
 .hero-banner p {
   font-weight: 100;
-  font-size: 3vw;
+  font-size: 6vw;
+}
+
+/*******************
+      PROJECT
+********************/
+
+section .projects {
+  padding: 1.5%;
+  background-color: lightgrey;
+  border-bottom: .5px solid black;
+}
+
+section .project-name {
+  line-height: 110%;
+  font-size: 9vw;
+  font-weight: 500;
+}
+
+section .project-short-desc {
+  font-size: 4vw;
+  font-weight: 500;
 }
