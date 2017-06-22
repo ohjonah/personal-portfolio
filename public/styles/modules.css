@@ -13,6 +13,7 @@ nav ul {
   text-align: center;
 }
 
+
 nav li {
   max-width: 100%;
   margin: 2% 0.5%;
@@ -22,6 +23,7 @@ nav li {
   background-color: #000;
   color: #fff;
   font-weight: 100;
+  cursor: pointer;
 }
 
 nav li:hover {
@@ -59,20 +61,22 @@ img {
 /*******************
       PROJECT
 ********************/
-
-section .projects {
+.projects {
+  width: 100%;
   padding: 1.5%;
   background-color: lightgrey;
+  text-align: left;
+  border: none;
   border-bottom: .5px solid black;
 }
 
-section .project-name {
+button .project-name {
   line-height: 110%;
-  font-size: 9vw;
+  font-size: 8vw;
   font-weight: 500;
 }
 
-section .project-short-desc {
+button .project-short-desc {
   font-size: 4vw;
   font-weight: 500;
 }
