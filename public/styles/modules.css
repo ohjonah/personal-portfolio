@@ -34,6 +34,12 @@ nav li:hover {
   border: 1px dotted #000;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
 /*******************
       HERO
 ********************/
@@ -79,4 +85,75 @@ button .project-name {
 button .project-short-desc {
   font-size: 4vw;
   font-weight: 500;
+}
+
+.panel {
+  background-color: grey;
+}
+
+.panel h3 {
+  padding: 1.5% 1.5% 0 1.5%;
+  text-decoration: underline;
+}
+
+.panel p {
+  padding: 1.5% 1.5% 1% 1.5%;
+}
+
+.panel p span a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/*******************
+      ABOUT-ME
+********************/
+
+.about-me {
+  color: white;
+  position: relative;
+  text-align: left;
+}
+
+.about-me img {
+  display: block;
+}
+
+.text-about-me {
+  position: absolute;
+  top: 10%;
+}
+
+.about-me h2 {
+  padding: 1.5%;
+  font-weight: 500;
+  font-size: 7vw;
+}
+
+.about-me p {
+  padding: 1.5%;
+  font-weight: 400;
+  font-size: 5vw;
+
+}
+
+/*******************
+      CONTACT ME
+********************/
+
+.about-me div a {
+  padding: 1.5%;
+  font-size: 6vw;
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: 2% auto;
+}
+
+.contact-me h2 {
+  position: static;
+  display: inline;
+  color: black;
 }

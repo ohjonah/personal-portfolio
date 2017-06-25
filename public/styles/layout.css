@@ -1,3 +1,5 @@
+/* hero text */
+
 .center {
   position: absolute;
   left: 50%;
@@ -7,4 +9,16 @@
 
 .text-overlay {
   width: 100%;
+}
+
+/* project button */
+
+button {
+  cursor: pointer;
+}
+
+/* project panel */
+
+.hidden {
+  display: none;
 }

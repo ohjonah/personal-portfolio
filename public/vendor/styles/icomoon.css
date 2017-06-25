@@ -26,22 +26,29 @@
 
 .icon-envelop:before {
   content: "\e945";
+  color: black;
 }
 .icon-mail4:before {
   content: "\ea86";
+  color: black;
 }
 .icon-twitter:before {
   content: "\ea96";
+  color: black;
 }
 .icon-flickr4:before {
   content: "\eaa6";
+  color: black;
 }
 .icon-github:before {
   content: "\eab0";
+  color: black;
 }
 .icon-linkedin2:before {
   content: "\eaca";
+  color: black;
 }
 .icon-menu:before {
   content: "\e9bd";
+  color: black;
 }
